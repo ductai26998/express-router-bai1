@@ -1,0 +1,9 @@
+head
+  link(rel="stylesheet", href="/style.css")
+body
+  h1 UPDATE NAME
+  form(action="/users/" + id + "/update", method="POST")
+    label  New name
+    br
+    input(name="name", type="text")
+    button UPDATE

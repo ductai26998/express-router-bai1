@@ -1,0 +1,9 @@
+head
+  link(rel="stylesheet", href="/style.css")
+body
+  h1 ADD BOOK
+  form(action="/books/create", method="POST")
+    label Book's title
+    br
+    input(name="title", type="text")
+    button ADD
