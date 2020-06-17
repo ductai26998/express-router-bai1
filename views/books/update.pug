@@ -1,0 +1,9 @@
+head
+  link(rel="stylesheet", href="/style.css")
+body
+  h1 UPDATE TITLE
+  form(action="/books/" + id + "/update", method="POST")
+    label  New book's title
+    br
+    input(name="title", type="text")
+    button UPDATE

@@ -1,0 +1,9 @@
+head
+  link(rel="stylesheet", href="/style.css")
+body
+  h1 ADD USER
+  form(action="/users/create", method="POST")
+    label name
+    br
+    input(name="name", type="text")
+    button ADD

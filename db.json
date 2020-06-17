@@ -1,0 +1,21 @@
+{
+  "books": [
+    {
+      "title": "hỗ trợ học css",
+      "id": "sw1PN2gr9"
+    },
+    {
+      "title": "TÁM THÁNG BA CỦA ITERS",
+      "id": "SmLkPhthd"
+    }
+  ],
+  "users": [
+    {
+      "name": "Nguyễn Đức Nhân",
+      "id": "IYQzDnw9G"
+    }
+  ],
+  "user": {
+    "name": "typicode"
+  }
+}
